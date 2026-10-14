@@ -1,4 +1,4 @@
-# ExcelToKV
+# Excel ↔ KV Sync
 
 面向 Dota 2 配置工作的 Python / Tkinter 桌面工具，支持 Excel → Valve KeyValues 文本和 KV → 现有 Excel 工作簿同步。
 
@@ -22,8 +22,8 @@ Excel 工作簿 ←→ 同名 KV 文本
 推荐 Python 3.11+，Windows Python 安装需包含 Tcl/Tk。
 
 ```powershell
-git clone https://github.com/yangming-666/ExcelToKV.git
-cd ExcelToKV
+git clone https://github.com/yangming-666/excel-kv-sync.git
+cd excel-kv-sync
 py -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe excel_to_kv_gui.py
