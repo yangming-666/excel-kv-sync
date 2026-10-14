@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+build_pyinstaller/
+dist/
+config.json
+JSON/
+*.log
+.DS_Store
